@@ -1,0 +1,20 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Custom HTML report output
+/tta-report/
+
+# Flaky-analyzer run snapshots
+/reports/
+
+# Local agent/tooling state
+/.commandcode/
+
+# Environment file with secrets (keep it tracked as a template for now)
+/.env.local
